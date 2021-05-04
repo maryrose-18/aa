@@ -28,18 +28,15 @@ Route::get('/', function () {
 
 Route::get('users', function () {
     return view('managements.user_management'); 
-    // localhost/projectname/public/URI
 })->name('users');
 
-Route::get('dashboard', function () {
-    return view('dashboard'); 
-    // localhost/projectname/public/URI
-})->name('dashboard');
+Route::get('home', function () {
+    return view('home'); 
+})->name('home');
 
-Route::get('company-managements', function () {
-    return view('managements.company_management'); 
-    // localhost/projectname/public/URI
-})->name('company-managements');
+Route::get('tokyo', function () {
+    return view('places.tokyo'); 
+})->name('tokyo');
 
 
 // Route::post('company-management',[CompanyManagementController::class, 'store']);

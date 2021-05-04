@@ -1,3 +1,3 @@
 <div class="container-fluid header">
-    NON-COMMERCIAL VALUE MANAGEMENT SYSTEM
+    "Doing this sweet thing called exploring Japan."
 </div>

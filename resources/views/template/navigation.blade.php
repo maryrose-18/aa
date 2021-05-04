@@ -5,18 +5,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       
         <ul class="navbar-nav" >
-            <li class="nav-item"><a class="nav-link" href="{{route('dashboard')}}">Dashboard</a></li>
-            <li class="nav-item"><a class="nav-link" href="#home">NCV Request</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Managements
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{route('users')}}">User Management</a> 
-                    <a class="dropdown-item" href="{{route('company-managements')}}">Company Management</a>
-                    <a class="dropdown-item" href="#">Approver Management</a>
-                </div>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{route('tokyo')}}">Tokyo</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Yokohama</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Kyoto</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Osaka</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Sapporo</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Nagoya</a></li>
         </ul>
     </div>
 </nav>
